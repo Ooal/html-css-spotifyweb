@@ -1,3 +1,13 @@
+::-webkit-scrollbar {
+width: 7px;
+ }
+
+::-webkit-scrollbar-thumb {
+background-color: rgba(255, 255, 255, 0.5);
+}
+::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0.4);
+}
 * {
   margin: 0;
   padding: 0;
@@ -235,7 +245,7 @@ footer {
   color: rgba(255, 255, 255, 0.5);
   border: solid 2px ;
   border-radius: 50px;
-  margin-right: 14%;
+  margin-right: 20%;
   font-size: 13px;
   padding: 10px 40px;
   text-decoration: none;
