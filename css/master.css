@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'PT Sans', sans-serif;
+  scrollbar-width: thin;
 }
 main {
   height: calc(100vh - 90px);
 }
+
 footer {
   height: 90px;
   background-color: #24211e;
@@ -116,8 +118,7 @@ footer {
   background-color: white;
 }
 .scrollplaylist ul {
-  height: 200px;
-  overflow-y: hidden;
+  overflow:auto;
 }
 .nav2 ul li:hover a {
   color: white;
@@ -627,13 +628,15 @@ footer {
     margin-right: 20%
   }
 }
-@media (max-height:726px ) {
+@media (max-height:749px ) {
   .scrollplaylist ul {
-    height: 180px;
-    overflow-y: scroll;
+    height: calc(100vh - 555px);
   }
 }
 @media (max-height:604px ) {
+  .scrollplaylist ul {
+    height: calc(100vh - 462px);
+  }
   .nav3 {
     display: none;
   }
