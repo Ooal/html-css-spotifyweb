@@ -308,6 +308,9 @@ footer {
 .copertina img {
   max-width: 100%;
 }
+.cerchio img {
+  border-radius: 50%;
+}
 /* overlay */
 .imgcopertina {
   position: relative;
@@ -326,6 +329,9 @@ footer {
 .overlay a {
   color: white;
   font-size: 40px;
+}
+.cerchio .overlay {
+  border-radius: 50%;
 }
 .imgcopertina:hover .overlay {
   display:flex;
