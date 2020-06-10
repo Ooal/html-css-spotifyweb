@@ -90,6 +90,7 @@ footer {
 }
 .nav2 h4 {
   margin-bottom: 15px;
+  padding-left: 10px;
 }
 .nav2 span {
   color: black;
@@ -143,7 +144,7 @@ footer {
   background-color: black;
   position: fixed;
   left: 0;
-  bottom: 98px;
+  bottom: 90px;
   z-index: 201;
 }
 
@@ -192,7 +193,7 @@ footer {
   padding: 7px 8px;
 }
 .user #us img {
-  width: 30px;
+  width: 24px;
 
 }
 .user a {
@@ -538,6 +539,7 @@ footer {
 
   .nav1  {
     padding-top: 3px;
+    padding-left: 3px;
   }
   .nav1 a {
     display: none;
@@ -664,7 +666,7 @@ footer {
 }
 @media (max-height:604px ) {
   .scrollplaylist ul {
-    height: calc(100vh - 462px);
+    height: calc(100vh - 460px);
   }
   .nav3 {
     display: none;
